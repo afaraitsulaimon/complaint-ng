@@ -14,8 +14,8 @@
 <body>
 
   <!-- Upper starts from here, it contains menu and directories of each page -->
-
-    <div class="container-fluid upper" >
+   
+    <div class="container-fluid upper">
       <div class="row">
           <div class="col-lg-12" style="margin-bottom:100px;">
 
@@ -60,56 +60,53 @@
 		  </div>
 		  
 		   <!-- start of inside menu-->
-		   
-			<div class="col-lg-6">
+		   <div class="container-fluid">
+			   <div class="row justify-content-center">
+
+			    <div>
 				<div>
-					<h1>Explore Topics</h1>
+					<h1 style="padding-left:50px;">Explore Topics</h1>
 
 				</div>	
 				
-				<div>
+				<div class="form-group">
 					<form>
-						<input type="text">
+						<input type="text" class="form-control" style="width:500px; height:50px; margin-left:50px;">
 					</form>
 					
 				</div>
 
 				<div>
-					<p>Topics:</p>
+					<p style="padding-left:50px;">Topics:</p>
 				</div>
 
-				<div>
-				<button>Cars</button> <button>Fashion</button> <button>Apps</button>
+				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics1">
+				<button><span><img src="../icon/car2.png"></span>Cars</button> <button style="margin-left:82px;"><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button> <button><span><img src="../icon/makeup.png"></span>Beauty</button>
 				</div>
 
-				<div>
-				<button>Cars</button> <button>Fashion</button> <button>Apps</button>
+				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics2">
+				<button><span><img src="../icon/fashion1.png"></span>Fashion</button> <button  style="margin-left:60px;"><span><img src="../icon/food.png"></span>Food & Beverages</button> <button style="margin-left:42px;"><span><img src="../icon/bank.png"></span>Banks/Investment</button>
 				</div>
 
-				<div>
-				<button>Cars</button> <button>Fashion</button> <button>Apps</button>
+				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics3">
+				<button><span><img src="../icon/house.png"></span>Apartment</button> <button style="margin-left:38px;"><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button> <button style="margin-left:38px;"><span><img src="../icon/entertainment.png"></span>Entertainment</button>
 				</div>
 						
 			</div>
 
-				 <div class="col-lg-6">
-                    <p>
-						great hjsksf jkskdfdfud jlfdsjfdsfds kjfudsuifoudf uufdfgdhuhg ufidsuif
-						gydfdfh yhdfyf hfddyfdysuf jflidfdsof 5
-						fd4fdf4554gg 544dffwedf 
-						fdfsdghhjgf fdsgfuhggfg4543 
-
-						great hjsksf jkskdfdfud jlfdsjfdsfds kjfudsuifoudf uufdfgdhuhg ufidsuif
-						gydfdfh yhdfyf hfddyfdysuf jflidfdsof 5
-						fd4fdf4554gg 544dffwedf 
-						fdfsdghhjgf fdsgfuhggfg4543 
-
-						great hjsksf jkskdfdfud jlfdsjfdsfds kjfudsuifoudf uufdfgdhuhg ufidsuif
-						gydfdfh yhdfyf hfddyfdysuf jflidfdsof 5
-						fd4fdf4554gg 544dffwedf 
-						fdfsdghhjgf fdsgfuhggfg4543 
-					</p>
+				 <div class="col-lg-6 ">
+                    <form>
+						<div class="form-group"><label>Full Name:</label><input type="text" placeholder="Full Name" class="form-control"></div>
+						<div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
+						<div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
+						<div class="form-group"><label>Email:</label><input type="text" placeholder="Email" class="form-control"></div>
+						<div class="form-group"><label>Phone:</label><input type="text" placeholder="080xxxxxxxx" class="form-control"></div>
+						<button class="form-group"><input type="submit" value="Register"> <button>Signin</button>
+					</form>
 				 </div>
+
+			</div>
+		</div>	 
 		  <!--end of inside menu -->
 
 		  <!-- statement after the menu start from here-->
@@ -123,7 +120,9 @@
 
 
       </div>
-    </div>
+	</div>
+</div>	
+
 
   <!-- Upper ends from here, it contains menu and directories of each page -->
 

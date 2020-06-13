@@ -1,6 +1,6 @@
 .upper{
 
-    background-image: url(images/indexBackground-image.jpg);
+   background-image: url(images/indexBackground-image.jpg);
     background-size: cover;
     
 
@@ -47,3 +47,90 @@
   border: 5px red solid;
 
 }
+
+.topics1 button{
+
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+
+.topics1 button:hover{
+
+   background-color: white;
+   border-radius: 3px;
+  
+}
+
+
+.topics1 button span{
+  
+  margin-right:10px;
+}
+
+
+.topics1 button span img{
+
+  width: 30px;
+   
+}
+
+.topics2 button{
+
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+.topics2 button:hover{
+
+  background-color: white;
+  border-radius: 3px;
+ 
+}
+
+
+
+
+
+.topics2 button span img{
+
+  width: 30px;
+}
+
+
+.topics2 button span{
+
+  margin-right:10px;
+}
+
+
+.topics3 button{
+
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+.topics3 button:hover{
+
+  background-color: white;
+  border-radius: 3px;
+ 
+}
+
+
+.topics3 button span{
+
+  margin-right:10px;
+}
+
+
+.topics3 button span img{
+
+  width: 30px;
+}
+
