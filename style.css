@@ -134,3 +134,38 @@
   width: 30px;
 }
 
+.contactUsUp{
+
+  background-image: url(images/signin.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+
+.contactUsUp h1{
+
+  font-size: 8em;
+  text-align: center;
+  padding-top: 20vh;
+  
+}
+
+.advertUp{
+
+  background-image: url(images/advert.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: center;
+
+}
+
+
+
+.advertUp h1{
+
+  font-size: 8em;
+  text-align: center;
+  padding-top: 20vh;
+  
+}

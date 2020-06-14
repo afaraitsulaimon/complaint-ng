@@ -45,10 +45,10 @@
 							<button class="bg-transparent"><a class="nav-link active text-white" href="#">About Us</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="#">For Advert</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="advert.php">For Advert</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="#">Contact Us</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="signin.php">Sign In</a></button>
 							</li>
 						</ul>
 					</div>
@@ -61,62 +61,66 @@
 		  
 		   <!-- start of inside menu-->
 		   <div class="container-fluid">
-			   <div class="row justify-content-center">
-
-			    <div>
-				<div>
-					<h1 style="padding-left:50px;">Explore Topics</h1>
-
-				</div>	
-				
-				<div class="form-group">
-					<form>
-						<input type="text" class="form-control" style="width:500px; height:50px; margin-left:50px;">
-					</form>
+			 <div class="row justify-content-center">
+				  <div class="col-6 " >
+					 <h1 style="padding-left:50px;">Explore Topics</h1>
+					 
+					 <div class="form-group">
+						<form>
+							<input type="text" class="form-control" style="width:500px; height:50px; margin-left:50px;">
+						</form>
 					
-				</div>
+					 </div>
+					 
 
-				<div>
+					 <div>
 					<p style="padding-left:50px;">Topics:</p>
+				     </div>
+
+
+
+
+					 <div class=" topics1 col-xs-12 col-sm-12">
+				<button><span><img src="../icon/car2.png"></span>Cars</button> <button style=""><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button> <button><span><img src="../icon/makeup.png"></span>Beauty</button>
 				</div>
 
-				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics1">
-				<button><span><img src="../icon/car2.png"></span>Cars</button> <button style="margin-left:82px;"><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button> <button><span><img src="../icon/makeup.png"></span>Beauty</button>
+				<div class="topics2 col-xs-12 col-sm-12">
+				<button><span><img src="../icon/fashion1.png"></span>Fashion</button> <button  style=""><span><img src="../icon/food.png"></span>Food & Beverages</button> <button style=""><span><img src="../icon/bank.png"></span>Govt/Politics</button>
 				</div>
 
-				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics2">
-				<button><span><img src="../icon/fashion1.png"></span>Fashion</button> <button  style="margin-left:60px;"><span><img src="../icon/food.png"></span>Food & Beverages</button> <button style="margin-left:42px;"><span><img src="../icon/bank.png"></span>Banks/Investment</button>
+				<div class="topics3 col-xs-12 col-sm-12">
+				<button><span><img src="../icon/house.png"></span>Apartment</button> <button style=""><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button> <button style=""><span><img src="../icon/entertainment.png"></span>Entertainment</button>
 				</div>
 
-				<div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topics3">
-				<button><span><img src="../icon/house.png"></span>Apartment</button> <button style="margin-left:38px;"><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button> <button style="margin-left:38px;"><span><img src="../icon/entertainment.png"></span>Entertainment</button>
-				</div>
-						
+
 			</div>
 
-				 <div class="col-lg-6 ">
-                    <form>
-						<div class="form-group"><label>Full Name:</label><input type="text" placeholder="Full Name" class="form-control"></div>
-						<div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-						<div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-						<div class="form-group"><label>Email:</label><input type="text" placeholder="Email" class="form-control"></div>
-						<div class="form-group"><label>Phone:</label><input type="text" placeholder="080xxxxxxxx" class="form-control"></div>
-						<button class="form-group"><input type="submit" value="Register"> <button>Signin</button>
-					</form>
-				 </div>
+				<!-- for top advert start here-->
+				<div class="col-5" style="border:5px solid white">
+                      <p style="font-size:3em; text-align:center; padding-top:10vh;">
+						  Advertise Here!
+					  </p>
+				   </div>
+			  <!-- for top advert ends here-->	
 
-			</div>
-		</div>	 
-		  <!--end of inside menu -->
+				<!-- statement after the menu start from here-->
 
-		  <!-- statement after the menu start from here-->
+				<div class="col-12 text-center frontStatement">
 
-		  <div class="col-12 text-center frontStatement">
+				<p>Complain About a Product <br> As a User</p>
 
-		    <p>Complain About a Product <br> As a User</p>
+				</div>
+				<!-- statement after the menu ends here-->
+				   
+			 </div>  
+		  </div>	  
+		  
+		  <!-- ends of inside menu-->
 
-		  </div>
-		  <!-- statement after the menu ends here-->
+			  
+				
+
+				
 
 
       </div>
@@ -125,6 +129,20 @@
 
 
   <!-- Upper ends from here, it contains menu and directories of each page -->
+
+
+
+  <div class="container">
+		<div class="row ">
+			<div class="col-12 " style="margin-top:10px;">
+
+			   <marquee style="font-Size:2em;">Disclaimer Notice: Every member on this platform is responsible for anything that he/she posts or uploads on complaintNG.</marquee>
+
+			</div>
+
+		</div>
+
+	</div>
 
 
 
