@@ -60,7 +60,7 @@
           <!--Menu ends from here -->    
           
 
-<!--UPPER IMAGE WITH SIGNIN/REGISTER START HERE-->
+<!--UPPER IMAGE OF ADVERT START HERE-->
 <div class="container-fluid">
         <div class="row">
              <div class="col-12 advertUp">
@@ -69,7 +69,7 @@
              </div>
         </div>
     </div>
-<!--UPPER IMAGE WITH SIGNIN/REGISTER ENDS HERE-->
+<!--UPPER IMAGE OF ADVERT ENDS HERE-->
 
 
 <div class="container">
@@ -118,6 +118,18 @@
                  <ol>We will not accept advert, pertaining to food and drugs, that is not being verified by NAFDAC</ol>
                  <ol>Online trading advert is rejected such as Forex trading,Networking Trading , MLM e.t.c</ol>
              </ul>
+
+
+             <div align="center">
+                    <h2 class="" >Contact Us For Advert</h2>
+
+                        <ul class="pr-5" style="list-style:none; font-size:1.3em">
+                            <ol>Email :- advert@complaint-ng.com</ol>
+                            <ol>Phone Number - 08032716181</ol>
+                            
+                        </ul>
+             </div>
+            
               
         </div>
 

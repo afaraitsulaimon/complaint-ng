@@ -169,3 +169,22 @@
   padding-top: 20vh;
   
 }
+
+
+.aboutUsUp{
+
+  background-image: url(images/advert.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: center;
+
+}
+
+
+.aboutUsUp h1{
+
+  font-size: 8em;
+  text-align: center;
+  padding-top: 20vh;
+  
+}
