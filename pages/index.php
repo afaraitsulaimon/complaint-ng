@@ -176,7 +176,7 @@
 
 
 	<!--Details of the content news field start from here -->
-        <div class="container-fluid" style="margin-top:50px;">
+        <div class="container-fluid" style="margin-top:50px;" id="latestNews">
 			<div class="row justify-content-around">
 
 				<div class="col-4 contentField">
