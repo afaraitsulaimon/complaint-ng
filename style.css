@@ -1,0 +1,171 @@
+.upper{
+
+   background-image: url(images/indexBackground-image.jpg);
+    background-size: cover;
+    
+
+    }
+
+    .sideMenuButton ul li button{
+
+
+          margin-left: 20px;
+          border: 0px;
+
+      }
+
+    .sideMenuButton ul li button:hover{
+
+
+      border-radius:5px;
+      border: 2px white solid;
+
+  }
+
+.upperAdvertImage{
+
+  height: 200px;
+  border: 5px red solid;
+ 
+}
+
+.contentField{
+
+  height: 80px;
+  border: 2px blue solid;
+
+}
+
+.frontStatement p{
+
+   font-size: 4em;
+}
+
+.downAdvertImage{
+
+  height: 200px;
+  border: 5px red solid;
+
+}
+
+.topics1 button{
+
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+
+.topics1 button:hover{
+
+   background-color: white;
+   border-radius: 3px;
+  
+}
+
+
+.topics1 button span{
+  
+  margin-right:10px;
+}
+
+
+.topics1 button span img{
+
+  width: 30px;
+   
+}
+
+.topics2 button{
+
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+.topics2 button:hover{
+
+  background-color: white;
+  border-radius: 3px;
+ 
+}
+
+
+
+
+
+.topics2 button span img{
+
+  width: 30px;
+}
+
+
+.topics2 button span{
+
+  margin-right:10px;
+}
+
+
+.topics3 button{
+
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: transparent;
+  border:0px;
+}
+
+.topics3 button:hover{
+
+  background-color: white;
+  border-radius: 3px;
+ 
+}
+
+
+.topics3 button span{
+
+  margin-right:10px;
+}
+
+
+.topics3 button span img{
+
+  width: 30px;
+}
+
+.contactUsUp{
+
+  background-image: url(images/signin.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+
+.contactUsUp h1{
+
+  font-size: 8em;
+  text-align: center;
+  padding-top: 20vh;
+  
+}
+
+.advertUp{
+
+  background-image: url(images/advert.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-y: center;
+
+}
+
+
+
+.advertUp h1{
+
+  font-size: 8em;
+  text-align: center;
+  padding-top: 20vh;
+  
+}
