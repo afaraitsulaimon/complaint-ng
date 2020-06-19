@@ -23,7 +23,7 @@
               <div class="topMenu">
               <nav class="navbar navbar-light navbar-expand-md">
 					<!-- Brand -->
-					<a class="navbar-brand text-dark" href="index.php">
+					<a class="navbar-brand text-dark" href="../pages/index.php">
 						<h1>complaintNG</h1>
 					</a>
 
@@ -39,16 +39,16 @@
 					<div class="collapse navbar-collapse sideMenuButton" id="collapsibleNavbar">
 						<ul class="navbar-nav text-white ml-auto nav-list">
 							<li class="nav-item" >
-								<button class="bg-transparent" ><a class="nav-link active text-white" href="index.php">Latest News</a></button>
+								<button class="bg-transparent" ><a class="nav-link active text-white" href="../pages/index.php">Latest News</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="aboutus.php">About Us</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="../pages/aboutus.php">About Us</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="advert.php">For Advert</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="../pages/advert.php">For Advert</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="signin.php">Sign In</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="../pages/signin.php">Sign In</a></button>
 							</li>
 						</ul>
 					</div>
@@ -65,55 +65,75 @@
         <div class="row">
              <div class="col-12 contactUsUp">
 
-                <h1>Register/Sign In</h1>
+                <h1>Registration</h1>
              </div>
         </div>
     </div>
 <!--UPPER IMAGE WITH SIGNIN/REGISTER ENDS HERE-->
 
 
-<!--Registration starts from here and it is hidden until the register button is clicked -->
 
-    <div class="container" style="display:none">
-        <div class="row justify-content-around">
-             <div class="col-6 mt-3">
-
-			 <h2 class="text-center">Register</h2>
-
-			 <form>
-						<div class="form-group"><label>Full Name:</label><input type="text" placeholder="Full Name" class="form-control"></div>
-						<div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-						<div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-						<div class="form-group"><label>Email:</label><input type="text" placeholder="Email" class="form-control"></div>
-						<div class="form-group"><label>Phone:</label><input type="text" placeholder="080xxxxxxxx" class="form-control"></div>
-						<button class="form-group"><input type="submit" value="Register"> <button>Signin</button>
-					</form>
-			 </div>
-			 
-        </div>
-    </div>
-
-<!--Registration ends from here and it is hidden until the register button is clicked -->
 	
 
-<!--SignUp starts from here and it is visible -->
+<!--Registration form starts from here and it is visible -->
 
 	<div class="container">
         <div class="row justify-content-center">
-		<div class="col-6 mt-3">
+		   <div class="col-6 mt-3">
 
-<h2 class="text-center">Login</h2>
+                <h2 class="text-center">Register Here</h2>
 
-<form>
-		   <div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-		   <div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-		   <button class="form-group"><input type="submit" value="Login"> <button class="ml-2 btn-group btn-dark"><a href="../users/user-registration.php">Register</button>
-	   </form>
-</div>
-        </div>
+                <form>
+                    <div class="form-group">
+                       <label>Full Name:</label>
+                       <input type="text" placeholder="full name" class="form-control">
+                    </div>
+
+
+                    <div class="form-group">
+                       <label>Email:</label>
+                       <input type="text" placeholder="email" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                       <label>Phone Number:</label>
+                       <input type="text" placeholder="080xxxxxxxx" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                       <label>Username:</label>
+                       <input type="text" placeholder="username" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                       <label>Password:</label>
+                       <input type="password" placeholder="password" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                       <label>Confirm Password:</label>
+                       <input type="password" placeholder="confirm password" class="form-control">
+                    </div>
+
+
+                    <div>
+                       <label>Image:</label>
+                       <input type="file" class="form-control-file">
+                    </div>
+
+
+                    <div class="form-group mt-3">
+                       
+                       <button type="submit" class="form-control">Register</button>
+                    </div>
+                    
+                </form>
+
+          </div>
+       </div>
     </div>
 
-<!--SignUp ends from here and it is visible -->
+<!--Registration form ends from here and it is visible -->
 
 
 
