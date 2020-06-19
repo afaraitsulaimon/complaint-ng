@@ -23,7 +23,7 @@
               <div class="topMenu">
               <nav class="navbar navbar-light navbar-expand-md">
 					<!-- Brand -->
-					<a class="navbar-brand text-dark" href="index.html">
+					<a class="navbar-brand text-dark" href="index.php">
 						<h1>complaintNG</h1>
 					</a>
 
@@ -42,7 +42,7 @@
 								<button class="bg-transparent" ><a class="nav-link active text-white" href="#latestNews">Latest News</a></button>
 							</li>
 							<li class="nav-item">
-							<button class="bg-transparent"><a class="nav-link active text-white" href="#">About Us</a></button>
+							<button class="bg-transparent"><a class="nav-link active text-white" href="aboutus.php">About Us</a></button>
 							</li>
 							<li class="nav-item">
 							<button class="bg-transparent"><a class="nav-link active text-white" href="advert.php">For Advert</a></button>

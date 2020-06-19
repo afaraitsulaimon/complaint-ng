@@ -15,9 +15,9 @@
 
   <!-- Upper starts from here, it contains menu and directories of each page -->
    
-    <div class="container-fluid" style="background-color:blue;">
+    <div class="container-fluid upper">
       <div class="row">
-          <div class="col-lg-12" style="margin-bottom:30px;">
+          <div class="col-lg-12" style="margin-bottom:100px;">
 
           <!--Menu starts from here -->
               <div class="topMenu">
@@ -54,67 +54,12 @@
 					</div>
 				</nav>
               </div>
-         </div>
-    </div>  
-    </div>   
 		  <!--Menu ends from here -->    
 		  
 
-<!--UPPER IMAGE WITH SIGNIN/REGISTER START HERE-->
-    <div class="container-fluid">
-        <div class="row">
-             <div class="col-12 contactUsUp">
-
-                <h1>Register/Sign In</h1>
-             </div>
-        </div>
-    </div>
-<!--UPPER IMAGE WITH SIGNIN/REGISTER ENDS HERE-->
-
-
-<!--Registration starts from here and it is hidden until the register button is clicked -->
-
-    <div class="container" style="display:none">
-        <div class="row justify-content-around">
-             <div class="col-6 mt-3">
-
-			 <h2 class="text-center">Register</h2>
-
-			 <form>
-						<div class="form-group"><label>Full Name:</label><input type="text" placeholder="Full Name" class="form-control"></div>
-						<div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-						<div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-						<div class="form-group"><label>Email:</label><input type="text" placeholder="Email" class="form-control"></div>
-						<div class="form-group"><label>Phone:</label><input type="text" placeholder="080xxxxxxxx" class="form-control"></div>
-						<button class="form-group"><input type="submit" value="Register"> <button>Signin</button>
-					</form>
-			 </div>
-			 
-        </div>
-    </div>
-
-<!--Registration ends from here and it is hidden until the register button is clicked -->
+		  </div>
+		  
 	
-
-<!--SignUp starts from here and it is visible -->
-
-	<div class="container">
-        <div class="row justify-content-around">
-		<div class="col-6 mt-3">
-
-<h2 class="text-center">Login</h2>
-
-<form>
-		   <div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-		   <div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-		   <button class="form-group"><input type="submit" value="Login"> <button>Register</button>
-	   </form>
-</div>
-        </div>
-    </div>
-
-<!--SignUp ends from here and it is visible -->
-
 
 
 
