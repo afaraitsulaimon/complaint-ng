@@ -13,11 +13,11 @@
 </head>
 <body>
 
-  <!-- Upper starts from here, it contains menu and directories of each page -->
+<!-- Upper starts from here, it contains menu and directories of each page -->
    
-    <div class="container-fluid upper">
+<div class="container-fluid" style="background-color:blue;">
       <div class="row">
-          <div class="col-lg-12" style="margin-bottom:100px;">
+          <div class="col-lg-12" style="margin-bottom:30px;">
 
           <!--Menu starts from here -->
               <div class="topMenu">
@@ -54,17 +54,67 @@
 					</div>
 				</nav>
               </div>
-		  <!--Menu ends from here -->    
-		  
+         </div>
+    </div>  
+    </div>   
+          <!--Menu ends from here -->    
+          
 
-		  </div>
-		  
-	
+<!--UPPER IMAGE OF ABOUT US START HERE-->
+<div class="container-fluid">
+        <div class="row">
+             <div class="col-12 aboutUsUp">
+
+                <h1>We Are complaintNG</h1>
+             </div>
+        </div>
+    </div>
+<!--UPPER IMAGE OF ABOUT US ENDS HERE-->
+
+
+    <!-- CONTENT OF THE ABOUT US START FROM HERE-->
+        
+        <div class="container-fluid">
+            <div class="row justify-content-around" style="font-size:1.5em">
+                <div class="col-6 mt-5 text-center">
+                    <p>
+                        This platform gives people opportunity to complain about the products they use, either good or bad. 
+                        Also to allow the manufacturer of the product know , how effective their product is or how if their 
+                        product is not good. This helps the manufacturers to improve in their productions and also helps
+                       some of the other users/consumers/people . <br><br><br>
+
+                       This can also help other to know more about a particular product, when they are willing to go 
+                       for the products.<br><br>
+
+                       The Government/Politics side can also help the Government to improve in the managing of the country 
+                       and improving the facilities for the people.<br><br><br>
+
+                       All the complaint here on complaintNG , is not posted by the Site Administrator. Every thing posted is
+                       being posted by each user of the site. <br><br><br>
+
+
+                       This site is basically built for the improvement of products and not to crumble/condenm or disorganise
+                       any products/Government or company. <br><br><br>
+
+
+                    
 
 
 
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    <!-- CONTENT OF THE ABOUT US ENDS HERE-->
 
 
+
+          
 	<!--footer starts from here-->
 	    <div class="container" style="margin-top:50px;">
 			<div class="row">
