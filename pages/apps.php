@@ -95,6 +95,7 @@
 
 			</div>
 
+
 				<!-- for top advert start here-->
 				<div class="col-5" style="border:5px solid white">
                       <p style="font-size:3em; text-align:center; padding-top:10vh;">
@@ -107,7 +108,7 @@
 
 				<div class="col-12 text-center frontStatement">
 
-				<p>Complain About a Product <br> As a User</p>
+				<p>Complain About An App <br> Mobile or Web</p>
 
 				</div>
 				<!-- statement after the menu ends here-->
@@ -138,6 +139,7 @@
 
 			   <marquee style="font-Size:2em;">Disclaimer Notice: Every member on this platform is responsible for anything that he/she posts or uploads on complaintNG.</marquee>
 
+               <h1 class="text-center">Application Complaint(Mobile/Web)</h1>
 			</div>
 
 		</div>
@@ -360,6 +362,8 @@
 
 	<!-- Down Advert boxes ends here -->
 
+
+<!-- CODE FOR PAGINATION HAS TO BE HERE-->
 
 
 
