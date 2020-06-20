@@ -80,6 +80,7 @@
 
 
 
+					 
 					 <div class=" topics1 col-xs-12 col-sm-12">
 				<a href="cars.php"><button><span><img src="../icon/car2.png"></span>Cars</button></a> <a href="apps.php"><button style=""><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button></a> <a href="beauty.php"><button><span><img src="../icon/makeup.png"></span>Beauty</button></a>
 				</div>
@@ -95,6 +96,7 @@
 
 			</div>
 
+
 				<!-- for top advert start here-->
 				<div class="col-5" style="border:5px solid white">
                       <p style="font-size:3em; text-align:center; padding-top:10vh;">
@@ -107,7 +109,7 @@
 
 				<div class="col-12 text-center frontStatement">
 
-				<p>Complain About a Product <br> As a User</p>
+				<p>Complain About A Fashion Product <br>Clothes/Shoes/Jewelries</p>
 
 				</div>
 				<!-- statement after the menu ends here-->
@@ -138,6 +140,7 @@
 
 			   <marquee style="font-Size:2em;">Disclaimer Notice: Every member on this platform is responsible for anything that he/she posts or uploads on complaintNG.</marquee>
 
+               <h1 class="text-center">Fashion Complaint</h1>
 			</div>
 
 		</div>
@@ -360,6 +363,8 @@
 
 	<!-- Down Advert boxes ends here -->
 
+
+<!-- CODE FOR PAGINATION HAS TO BE HERE-->
 
 
 
