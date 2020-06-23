@@ -4,13 +4,13 @@
 
 
 
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../../style.css">
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
 
 	<title></title>
 </head>
@@ -28,7 +28,7 @@
 
 
 					<!-- Brand starts here-->
-					<a class="navbar-brand text-dark" href="dashboard.php">
+					<a class="navbar-brand text-dark" href="../dashboard.php">
 						<h1>complaintNG</h1>
 					</a>
                 <!-- Brand ends here-->
@@ -37,9 +37,9 @@
 					<!-- user dropdown starts from here -->
 					<div class="dropdown ml-auto postButton">
 
-                         <button class="btn-lg mr-5"><a href="user-post.php">Post</a></button>
+                         <button class="btn-lg mr-5"><a href="../user-post.php">Post</a></button>
                        
-                            <img src="../images/disclaimer.png" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:80px; height:80px;border-radius:50%;">
+                            <img src="../../images/disclaimer.png" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:80px; height:80px;border-radius:50%;">
                       
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Sign Out</a>
@@ -80,15 +80,15 @@
 
 
 					 <div class=" topics1 col-xs-12 col-sm-12">
-				<a href="user-pages/users-cars.php"><button><span><img src="../icon/car2.png"></span>Cars</button></a> <a href="user-pages/users-apps.php"><button style=""><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button></a> <a href="user-pages/users-beauty.php"><button><span><img src="../icon/makeup.png"></span>Beauty</button></a>
+				<a href="users-cars.php"><button><span><img src="../../icon/car2.png"></span>Cars</button></a> <a href="users-apps.php"><button style=""><span><img src="../../icon/mobile-app.png"></span> Apps(Mobile & Web)</button></a> <a href="users-beauty.php"><button><span><img src="../../icon/makeup.png"></span>Beauty</button></a>
 				</div>
 
 				<div class="topics2 col-xs-12 col-sm-12">
-				<a href="user-pages/users-fashion.php"><button><span><img src="../icon/fashion1.png"></span>Fashion</button></a> <a href="user-pages/users-foods.php"><button  style=""><span><img src="../icon/food.png"></span>Food & Beverages</button></a> <a href="user-pages/users-govt.php"><button style=""><span><img src="../icon/bank.png"></span>Govt/Politics</button></a>
+				<a href="users-fashion.php"><button><span><img src="../../icon/fashion1.png"></span>Fashion</button></a> <a href="users-foods.php"><button  style=""><span><img src="../../icon/food.png"></span>Food & Beverages</button></a> <a href="users-govt.php"><button style=""><span><img src="../../icon/bank.png"></span>Govt/Politics</button></a>
 				</div>
 
 				<div class="topics3 col-xs-12 col-sm-12">
-				<a href="user-pages/users-housing.php"><button><span><img src="../icon/house.png"></span>Apartment</button></a> <a href="user-pages/users-elect-gadgets.php"><button style=""><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button></a> <a href="user-pages/users-entertainment.php"><button style=""><span><img src="../icon/entertainment.png"></span>Entertainment</button></a>
+				<a href="users-housing.php"><button><span><img src="../../icon/house.png"></span>Apartment</button></a> <a href="users-elect-gadgets.php"><button style=""><span><img src="../../icon/gadget1.png"></span>Gadget/Electronics</button></a> <a href="users-entertainment.php"><button style=""><span><img src="../../icon/entertainment.png"></span>Entertainment</button></a>
 				</div>
 
 
@@ -106,7 +106,7 @@
 
 				<div class="col-12 text-center frontStatement">
 
-				<p>Complain About a Product <br> As a User</p>
+				<p>Complain About Politics & Government<br>Local/State or Federal</p>
 
 				</div>
 				<!-- statement after the menu ends here-->
@@ -136,7 +136,7 @@
 			<div class="col-12 " style="margin-top:10px;">
 
 			   <marquee style="font-Size:2em;">Disclaimer Notice: Every member on this platform is responsible for anything that he/she posts or uploads on complaintNG.</marquee>
-
+               <h1 class="text-center">Government/Politics Complaint</h1>
 			</div>
 
 		</div>
