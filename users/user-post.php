@@ -79,16 +79,16 @@
 
 
 
-					 <div class=" topics1 col-xs-12 col-sm-12">
-				<button><span><img src="../icon/car2.png"></span>Cars</button> <button style=""><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button> <button><span><img src="../icon/makeup.png"></span>Beauty</button>
+                     <div class=" topics1 col-xs-12 col-sm-12">
+				<a href="user-pages/users-cars.php"><button><span><img src="../icon/car2.png"></span>Cars</button></a> <a href="user-pages/users-apps.php"><button style=""><span><img src="../icon/mobile-app.png"></span> Apps(Mobile & Web)</button></a> <a href="user-pages/users-beauty.php"><button><span><img src="../icon/makeup.png"></span>Beauty</button></a>
 				</div>
 
 				<div class="topics2 col-xs-12 col-sm-12">
-				<button><span><img src="../icon/fashion1.png"></span>Fashion</button> <button  style=""><span><img src="../icon/food.png"></span>Food & Beverages</button> <button style=""><span><img src="../icon/bank.png"></span>Govt/Politics</button>
+				<a href="user-pages/users-fashion.php"><button><span><img src="../icon/fashion1.png"></span>Fashion</button></a> <a href="user-pages/users-foods.php"><button  style=""><span><img src="../icon/food.png"></span>Food & Beverages</button></a> <a href="user-pages/users-govt.php"><button style=""><span><img src="../icon/bank.png"></span>Govt/Politics</button></a>
 				</div>
 
 				<div class="topics3 col-xs-12 col-sm-12">
-				<button><span><img src="../icon/house.png"></span>Apartment</button> <button style=""><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button> <button style=""><span><img src="../icon/entertainment.png"></span>Entertainment</button>
+				<a href="user-pages/users-housing.php"><button><span><img src="../icon/house.png"></span>Apartment</button></a> <a href="user-pages/users-elect-gadgets.php"><button style=""><span><img src="../icon/gadget1.png"></span>Gadget/Electronics</button></a> <a href="user-pages/users-entertainment.php"><button style=""><span><img src="../icon/entertainment.png"></span>Entertainment</button></a>
 				</div>
 
 
