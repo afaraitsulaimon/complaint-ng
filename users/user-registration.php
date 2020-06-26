@@ -1,3 +1,8 @@
+<?php
+   require_once("authentication/user-reg-auth.php");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,50 +86,65 @@
         <div class="row justify-content-center">
 		   <div class="col-6 mt-3">
 
+         <?php
+               if (isset($_GET['regFeedback']) && $_GET['regFeedback'] == 'success') {
+                  echo "<div class='alert alert-success'>Registartion successful</div>";
+               }elseif (isset($regErrorMessage)) {
+               echo "<div class='alert alert-danger'>$regErrorMessage</div>";
+               }
+         ?>
+
                 <h2 class="text-center">Register Here</h2>
 
-                <form>
+                <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" enctype="multipart/form-data">
                     <div class="form-group">
                        <label>Full Name:</label>
-                       <input type="text" placeholder="full name" class="form-control">
+                       <input type="text" placeholder="full name" class="form-control" name="userFullName">
                     </div>
 
 
                     <div class="form-group">
                        <label>Email:</label>
-                       <input type="text" placeholder="email" class="form-control">
+                       <input type="text" placeholder="email" class="form-control" name="userEmail">
                     </div>
 
                     <div class="form-group">
                        <label>Phone Number:</label>
-                       <input type="text" placeholder="080xxxxxxxx" class="form-control">
+                       <input type="text" placeholder="080xxxxxxxx" class="form-control" name="userMobile">
                     </div>
 
                     <div class="form-group">
                        <label>Username:</label>
-                       <input type="text" placeholder="username" class="form-control">
+                       <input type="text" placeholder="username" class="form-control" name="user-name">
+                    </div>
+
+                    <div class="form-group">
+                       <label>Gender:</label>
+                       <input type="checkbox" value="male" name="gender">&nbsp Male 
+                       <input type="checkbox" value="female" name="gender">&nbsp Female 
+                       <input type="checkbox" value="undisclosed" name="gender">&nbsp Undisclosed
                     </div>
 
                     <div class="form-group">
                        <label>Password:</label>
-                       <input type="password" placeholder="password" class="form-control">
+                       <input type="password" placeholder="password" class="form-control" name="userPass">
                     </div>
 
                     <div class="form-group">
                        <label>Confirm Password:</label>
-                       <input type="password" placeholder="confirm password" class="form-control">
+                       <input type="password" placeholder="confirm password" class="form-control" name="confirmPassword">
                     </div>
 
 
                     <div>
                        <label>Image:</label>
-                       <input type="file" class="form-control-file">
+                       <input type="file" name="userImage" class="form-control-file" >
                     </div>
 
 
                     <div class="form-group mt-3">
                        
-                       <button type="submit" class="form-control">Register</button>
+                       <button type="submit" class="form-control" name="regUserButton">Register</button>
                     </div>
                     
                 </form>

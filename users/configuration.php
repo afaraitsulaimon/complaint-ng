@@ -2,7 +2,7 @@
 
 
    define("DBSERVER", "localhost");
-   define("DBNAME","complaint-ng");
+   define("DBNAME","complain-ng");
    define("DBUSER","root");
    define("DBPASS","");
 
@@ -21,7 +21,7 @@
 
    if (!$conn_database) {
        
-    die("could not query database" .mysqli_error($connections));
+    die("could not query database" .mysqli_error($connection));
     
    }
 
