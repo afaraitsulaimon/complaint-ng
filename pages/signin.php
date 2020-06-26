@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+   require_once("../users/authentication/user-login-auth.php");
+   require_once("../users/configuration.php");
+
+?>
+
+ <!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="../style.css">
@@ -104,10 +110,18 @@
 
 <h2 class="text-center">Login</h2>
 
-<form>
-		   <div class="form-group"><label>Username:</label><input type="text" placeholder="Username" class="form-control"></div>
-		   <div class="form-group"><label>Password:</label><input type="password" placeholder="password" class="form-control"></div>
-		   <button class="form-group"><input type="submit" value="Login"> <button class="ml-2 btn-group btn-dark"><a href="../users/user-registration.php">Register</button>
+<?php
+    if (isset($errorLoginMessage)) {
+	     echo "<div class='alert alert-danger'>{$errorLoginMessage}</div>";
+	}
+?>
+
+<form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
+
+		   <div class="form-group"><label>Username:</label><input type="text" placeholder="Username" name="usernameDet" class="form-control"></div>
+		   <div class="form-group"><label>Password:</label><input type="password" placeholder="password" name="userPassCode" class="form-control"></div>
+		   <div class="form-group"><a href="">forget password</a></div>
+		   <button class="form-group"><input type="submit" value="Login" name="loginUser"> <button class="ml-2 btn-group btn-dark"><a href="../users/user-registration.php">Register</button>
 	   </form>
 </div>
         </div>
