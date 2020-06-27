@@ -65,9 +65,11 @@
                 
                 $fetchLoggedInUserDet = mysqli_fetch_assoc($queryLoggedInUserDet);
 
-                $LoggedInUserId = $fetchLoggedInUserDet['usersId'];
+                
 
-                $_SESSION['idOfUser'] = $LoggedInUserId;
+                $_SESSION['idOfUser'] = $fetchLoggedInUserDet['usersId'];
+
+                
 
             }
 
