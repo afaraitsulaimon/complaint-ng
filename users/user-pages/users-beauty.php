@@ -56,7 +56,7 @@
                             <img src="../../images/disclaimer.png" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:80px; height:80px;border-radius:50%;">
                       
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Sign Out</a>
+                            <a class="dropdown-item" href="../authentication/user-logout-auth.php">Sign Out</a>
                             <a class="dropdown-item" href="#">Change Password</a>
                             <a class="dropdown-item" href="#">Edit Profile</a>
                         </div>
