@@ -1,3 +1,9 @@
+<?php
+	session_start();
+	 require_once("../configuration.php");
+	 require_once("../../handler/dbhandler.php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,6 +38,14 @@
 						<h1>complaintNG</h1>
 					</a>
                 <!-- Brand ends here-->
+
+				<div class="ml-auto" style="color:blue; font-size:1.5em; font-weight:bold;">Welcome 
+					<?php 
+					    require_once("../user-fullname.php");
+
+
+					  ?>
+					  </div>
 					
 
 					<!-- user dropdown starts from here -->
