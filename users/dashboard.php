@@ -39,7 +39,7 @@
 						<h1>complaintNG</h1>
 					</a>
                 <!-- Brand ends here-->
-					
+					<!-- This display the users full name-->
 					<div class="ml-auto" style="color:blue; font-size:1.5em; font-weight:bold;">Welcome 
 					<?php 
 					    require_once("user-fullname.php");
