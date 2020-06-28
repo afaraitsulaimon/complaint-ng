@@ -52,8 +52,9 @@
 
                          <button class="btn-lg mr-5"><a href="../user-post.php">Post</a></button>
                        
-                            <img src="../../images/disclaimer.png" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:80px; height:80px;border-radius:50%;">
-                      
+						 <?php
+                                require_once("../user-profile-pics.php");
+						  ?>                      
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="../authentication/user-logout-auth.php">Sign Out</a>
                             <a class="dropdown-item" href="#">Change Password</a>
