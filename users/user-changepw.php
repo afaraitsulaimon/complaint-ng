@@ -2,14 +2,30 @@
 	session_start();
 	 require_once("configuration.php");
 	 require_once("../handler/dbhandler.php");
-	 require_once("authentication/user-login-auth.php");
+     require_once("authentication/user-login-auth.php");
+     require_once("authentication/user-changepw-auth.php");
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 
+<style>
 
+
+.btn-lg{
+    border:2px solid black;
+}
+
+.btn-lg:hover{
+
+       color:red;
+       font-weight:bolder;
+       border:2px solid red;
+
+       
+}
+</style>
 
 <link rel="stylesheet" href="../style.css">
 <meta charset="UTF-8">
@@ -61,7 +77,7 @@
                                                  
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="authentication/user-logout-auth.php">Sign Out</a>
-                            <a class="dropdown-item" href="user-changepw.php">Change Password</a>
+                            <a class="dropdown-item" href="#">Change Password</a>
                             <a class="dropdown-item" href="user-edit-profile.php">Edit Profile</a>
                         </div>
                     </div>
@@ -148,235 +164,53 @@
   <!-- Upper ends from here, it contains menu and directories of each page -->
 
 
-
-  <div class="container">
-		<div class="row ">
-			<div class="col-12 " style="margin-top:10px;">
-
-			   <marquee style="font-Size:2em;">Disclaimer Notice: Every member on this platform is responsible for anything that he/she posts or uploads on complaintNG.</marquee>
-
-			</div>
-
-		</div>
-
-	</div>
-
-
-
-<!-- Up Advert boxes start from here -->
-
-
-
-    <div class="container-fluid" style="margin-top:50px;">
-		<div class="row justify-content-around">
-			<div class="col-3 upperAdvertImage">
-                <p>Up Advert Image 1</p>
-			</div>
-
-			<div class="col-3 upperAdvertImage">
-			   <p>Up Advert Image 2</p>
-			</div>
-
-			<div class="col-3 upperAdvertImage">
-			   <p>Up Advert Image 3</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<!-- Up Advert boxes ends here -->
-
-
-
-
-
-
-	<!--Details of the content news field start from here -->
-        <div class="container-fluid" style="margin-top:50px;" id="latestNews">
-			<div class="row justify-content-around">
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-			</div>
-			
-
-
-			<div class="row justify-content-around" style="margin-top:20px;">
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-			</div>
-			
-
-
-			<div class="row justify-content-around" style="margin-top:20px;">
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-				<div class="col-4 contentField">
-				One of two columns
-				</div>
-
-				</div>
-
-		   </div>
-
-
-		   <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		  </div>
-		  
-
-		  <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		 </div>
-		 
-
-
-		 <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		 </div>
-		 
-
-
-
-		 <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		 </div>
-		 
-
-
-
-		 <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		 </div>
-		 
-
-
-		 <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-		 </div>
-		 
-
-
-		 <div class="row justify-content-around" style="margin-top:20px;">
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					<div class="col-4 contentField">
-					One of two columns
-					</div>
-
-					</div>
-
-	     </div>
-
-
-	<!--Details of the content news field ends here -->
-
-
-
-<!-- Down Advert boxes start from here -->
-
-
-
-<div class="container-fluid" style="margin-top:50px;">
-		<div class="row justify-content-around">
-			<div class="col-3 downAdvertImage">
-                <p>Down Advert Image 1</p>
-			</div>
-
-			<div class="col-3 downAdvertImage">
-			   <p>Down Advert Image 2</p>
-			</div>
-
-			<div class="col-3 downAdvertImage">
-			   <p>Down Advert Image 3</p>
-			</div>
-
-		</div>
-
-	</div>
-
-	<!-- Down Advert boxes ends here -->
-
+   <!-- change password form starts from here -->
+
+     
+        <div class="container mt-5">
+           <div class="row justify-content-around">
+               <div class="col-6 bg-info">
+
+             <!-- this display the error message if we encounter any one-->
+               <?php
+                   if (isset($changePwErrMessage)) {
+                       
+                    echo "<div class='alert alert-danger mt-2'>$changePwErrMessage</div>";
+                   }
+               ?>
+                  <h1 class="mt-4 mb-5 text-center">Change Password</h1>
+
+                    <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']) ?>">
+                  
+                        <div class="form-group">
+                           <label>Current Password:</label>
+                           <input type="password" name="currentPw" class="form-control">
+                        </div>
+
+
+                        <div class="form-group">
+                           <label>New Password:</label>
+                           <input type="password" name="newPw" class="form-control">
+                        </div>
+
+
+                        <div class="form-group">
+                           <label>Confirm New Password:</label>
+                           <input type="password" name="confirmNewPw" class="form-control">
+                        </div>
+
+                        <div class="form-group" align="center">
+                           <button type="submit" name="changePw" class="btn-lg" >Change Password</button>
+                        </div>
+                    
+                    </form>
+               
+               </div>
+           </div>
+
+        </div>
+
+   <!-- change password form ends here -->
 
 
 
