@@ -56,8 +56,8 @@
 						  ?>                      
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="../authentication/user-logout-auth.php">Sign Out</a>
-                            <a class="dropdown-item" href="#">Change Password</a>
-                            <a class="dropdown-item" href="#">Edit Profile</a>
+                            <a class="dropdown-item" href="../user-changepw.php">Change Password</a>
+                            <a class="dropdown-item" href="../user-edit-profile.php">Edit Profile</a>
                         </div>
                     </div>
 
