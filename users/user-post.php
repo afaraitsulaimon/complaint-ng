@@ -1,3 +1,11 @@
+<?php
+   session_start();
+   require_once("configuration.php");
+   require_once("../handler/dbhandler.php");
+   require_once("authentication/user-login-auth.php");
+   require_once("authentication/user-post-auth.php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +15,7 @@
 <link rel="stylesheet" href="../style.css">
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
@@ -209,34 +218,48 @@
 
                         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                <h1 class="text-center">Create a New Post</h1>
-                               <form>
+
+                               <?php 
+                                   if (isset($_GET['postStatus']) && $_GET['postStatus'] == 'success') {
+                                       echo "<div class='alert alert-success mt-3'>Successfully Posted</div>";
+                                   }elseif (isset($messagePostedError)) {
+                                    echo "<div class='alert alert-danger mt-3'>$messagePostedError</div>";
+                                   }
+                               ?>
+                               <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
                                    <div class="form-group">
                                        <label>Title:</label>
-                                       <input type="text" class="form-control">
+                                       <input type="text" class="form-control" name='titleForPost'>
+
+                                   </div>
+
+                                   <div class="form-group">
+                                       <label>Topic:</label>
+                                       <select class="form-control" name="messageTopic">
+                                          <option value="selectTopic" name="messageTopic">Select Topic</option>
+                                          <option value="cars" name="messageTopic">Cars</option>
+                                          <option value="application" name="messageTopic">Apps(Mobile & Web)</option>
+                                          <option value="beauty" name="messageTopic">Beauty</option>
+                                          <option value="fashion" name="messageTopic">Fashion</option>
+                                          <option value="food" name="messageTopic">Food & Beverages </option>
+                                          <option value="government" name="messageTopic">Govt/Politics</option>
+                                          <option value="housing" name="messageTopic">Apartment</option>
+                                          <option value="gadget" name="messageTopic">Gadget/Electronics</option>
+                                          <option value="entertainment" name="messageTopic">Entertainment</option>
+                                       </select>
 
                                    </div>
 
                                    <div class="form-group">
                                         <label for="exampleFormControlTextarea1">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-                                   </div>
-
-                                   <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name='messageForPost'></textarea>
 
                                    </div>
 
 
-                                    <div class="form-group">
-                                        <label for="exampleFormControlFile1">Upload Image</label>
-                                        <input type="file" class="form-control-file" >
-                                    </div>
-
 
                                     <div class="form-group">
-                                        <button type="submit" class="btn-lg ">Post</button>
+                                        <button type="submit" class="btn-lg" name="postButton">Post</button>
 
                                     </div>
                                </form>
@@ -277,9 +300,10 @@
   <!-- JS, Popper.js, and jQuery -->
 
 </body>
- 
+
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
+
