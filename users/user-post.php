@@ -146,8 +146,7 @@
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">My Posts</a>
                             <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">New Post</a>
-                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                            
                     </div>
                    
 
@@ -161,56 +160,9 @@
                 <div class="tab-content" id="v-pills-tabContent">
                     <!--list of User Post starts from here -->
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                            <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">S/N</th>
-                                        <th scope="col">Title</th>
-                                        <th scope="col">Message</th>
-                                        <th scope="col">Posted Date</th>
-                                        <th scope="col">View</th>
-                                        <th scope="col">Edit</th>
-                                        <th scope="col">Delete</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                        <th scope="row"><input type="checkbox"></th>
-                                        <td>Mark</td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        <td><button><a href = "#">View</a></button></td>
-                                        <td><button><a href = "#">Edit</a></button></td>
-                                        <td><button><a href = "#">Delete</a></button></td>
-                                        </tr>
-
-                                        <tr>
-                                        <th scope="row"><input type="checkbox"></th>
-                                        <td>Jacob</td>
-                                        <td>Mark</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                        <td><button><a href = "#">View</a></button></td>
-                                        <td><button><a href = "#">Edit</a></button></td>
-                                        <td><button><a href = "#">Delete</a></button></td>
-                                        </tr>
-
-                                        <tr>
-                                        <th scope="row"><input type="checkbox"></th>
-                                        <td>Jacob</td>
-                                        <td>Mark</td>
-                                        <td>Larry the Bird</td>
-                                        <td>@twitter</td>
-                                        <td><button><a href = "#">View</a></button></td>
-                                        <td><button><a href = "#">Edit</a></button></td>
-                                        <td><button><a href = "#">Delete</a></button></td>
-                                        </tr>
-
-                                        
-                                    </tbody>
-                            </table>
+                                <?php
+                                    require_once("authentication/user-showpost-messages-auth.php");
+                                ?>
                         </div>
                     <!--list of User Post ends here -->
 
@@ -267,8 +219,7 @@
 
                         <!--New Post ends here -->
 
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                        
                 </div>
 
                </div>
@@ -306,4 +257,3 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
-
