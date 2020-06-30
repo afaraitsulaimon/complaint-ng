@@ -1,13 +1,8 @@
 <?php
 
-
    $loggedInPerson = userLoggedIn();
-
-					
-					
-   $getloggedInPersonDet = "SELECT * FROM usersdetails WHERE usersId = $loggedInPerson ";
-
-   
+			
+   $getloggedInPersonDet = "SELECT * FROM usersdetails WHERE usersId = $loggedInPerson";
 
    $queryLoggedInPersonDet = mysqli_query($connection,$getloggedInPersonDet);
 
