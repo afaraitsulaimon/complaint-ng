@@ -36,7 +36,7 @@ $userToShowMessage = userLoggedIn();
           $messageTable .= "<td>{$fetchPostedMessages['postTitle']}</td>";
           $messageTable .= "<td>{$fetchPostedMessages['postMessage']}</td>";
           $messageTable .= "<td>{$fetchPostedMessages['topicMessage']}</td>";
-          $messageTable .= "<td><button>View</button></td>";
+          $messageTable .= "<td><a href='users-view-messages.php?userNoId=$fetchPostedMessages[postId]'<button>View</button></a></td>";
           $messageTable .= "<td><button>Edit</button></td>";
           $messageTable .= "<td><button>Delete</button></td>";
           $messageTable .= "<td>{$fetchPostedMessages['datePosted']}</td>";
